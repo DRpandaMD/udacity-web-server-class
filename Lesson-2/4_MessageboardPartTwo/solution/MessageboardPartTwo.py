@@ -45,6 +45,7 @@ class MessageHandler(BaseHTTPRequestHandler):
         # Then encode and send the form.
         self.wfile.write(form.encode())
 
+
 if __name__ == '__main__':
     server_address = ('', 8000)
     httpd = HTTPServer(server_address, MessageHandler)

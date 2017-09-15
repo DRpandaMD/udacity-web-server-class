@@ -2,7 +2,8 @@
 #
 # Test script for the echo server.
 
-import requests, random
+import requests
+import random
 
 words = ["Alpha", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf",
          "Hotel", "India", "Juliet", "Kilo", "Lima", "Mike", "November",

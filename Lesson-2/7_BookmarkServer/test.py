@@ -9,7 +9,9 @@
 # and responding accordingly, and answer a GET request to /name depending
 # on whether the name was previously stored or not.
 
-import requests, random, socket
+import requests
+import random
+import socket
 
 
 def test_CheckURI_bad():
